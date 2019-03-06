@@ -4,11 +4,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
 import { MaterialModule } from '@workshop/material';
-import { HomeModule } from './home/home.module';
-import { ProjectsModule } from './projects/projects.module';
-import { CustomersModule } from './customers/customers.module';
 import { AppRoutingModule } from './app-routing.module';
 import { UiLoginModule } from '@workshop/ui-login';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +15,7 @@ import { UiLoginModule } from '@workshop/ui-login';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule,
     // Estan siendo cargados lazy no deben estar aqui
     // HomeModule,
     // ProjectsModule,
