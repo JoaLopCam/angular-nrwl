@@ -12,7 +12,7 @@
             (click)="selectProject(project)"
             *ngFor="let project of projects"
           >
-            <h3 mat-line>
+            <h3 mat-line [style.color]="'red'">
               <!-- PROJECT DETAILS -->
               {{ project.title }}
             </h3>
