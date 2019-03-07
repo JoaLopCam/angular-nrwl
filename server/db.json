@@ -93,28 +93,6 @@
   ],
   "projects": [
     {
-      "id": "1",
-      "title": "Project HOLLA!",
-      "details": "This is a sample project",
-      "percentComplete": 20,
-      "approved": false,
-      "startDate": null,
-      "targetDate": null,
-      "completionDate": null,
-      "customerId": "1"
-    },
-    {
-      "id": "2",
-      "title": "Project Two",
-      "details": "This is a sample project",
-      "percentComplete": 40,
-      "approved": true,
-      "startDate": null,
-      "targetDate": null,
-      "completionDate": null,
-      "customerId": "3"
-    },
-    {
       "id": "NaLriMg",
       "title": "TEST Project!",
       "details": "TEST",
@@ -123,7 +101,21 @@
     },
     {
       "id": "B1Mo9zg",
-      "title": "prueba",
+      "title": "prueba xd",
+      "details": "detalles de la prueba",
+      "percentComplete": 100,
+      "approved": true
+    },
+    {
+      "id": "3141431",
+      "title": "adssd",
+      "details": "detalles de la prueba",
+      "percentComplete": 100,
+      "approved": true
+    },
+    {
+      "id": "B1M1334o9zg",
+      "title": "prsdadsaueba",
       "details": "detalles de la prueba",
       "percentComplete": 100,
       "approved": true
